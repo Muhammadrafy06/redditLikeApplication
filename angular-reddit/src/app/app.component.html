@@ -1,14 +1,14 @@
 <form >
   <h3 >Add a Link</h3>
   <div>
-    <label for="title">Title:</label>
-    <input name="title" #newtitle>
+    <label for="text">spamText:</label>
+    <input name="text" #spam>
   </div>
   <div>
-    <label for="link">Link:</label>
-    <input name="link" #newlink>
+    <label for="amount">amount:</label>
+    <input name="amount" #amount>
   </div>
-  <button (click)="addArticle(newtitle, newlink)"> 
+  <button (click)="spamArticles(spam, amount)"> 
   Submit link
   </button>
 </form>
